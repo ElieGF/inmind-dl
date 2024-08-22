@@ -60,7 +60,7 @@ for class_idx, rgba_color in class_to_rgba.items():
     output_colored[mask] = rgba_color
 
 # Save the resulting image
-output_image_path = f"C:\\Users\\Elie_\\Desktop\\VS CODE PROJECTS\\Final Project Inmind\\Segmentation\\Inference Results\\Segmented boorgir {original_name}"
+output_image_path = f"C:\\Users\\Elie_\\Desktop\\VS CODE PROJECTS\\Final Project Inmind\\Segmentation\\Inference Results\\Segmented {original_name}"
 cv2.imwrite(output_image_path, output_colored)
 
 print(f"Segmented image saved to {output_image_path}")
