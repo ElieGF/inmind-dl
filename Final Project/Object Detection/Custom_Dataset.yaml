@@ -1,0 +1,10 @@
+# Paths to training, testing and validation datasets
+train: c:/Users/Elie_/Desktop/VS CODE PROJECTS/Final Project Inmind/dataset/train/Images
+val: c:/Users/Elie_/Desktop/VS CODE PROJECTS/Final Project Inmind/dataset/val/Images
+test: c:/Users/Elie_/Desktop/VS CODE PROJECTS/Final Project Inmind/dataset/test/Images  
+
+# Number of classes
+nc: 9
+
+# Class names
+names: [ 'Forklift', 'Rack', 'Crate', 'Floor', 'Railing', 'Pallet', 'Stillage', 'Iwhub', 'Dolly' ]
