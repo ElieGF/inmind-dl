@@ -1,0 +1,19 @@
+.venv/
+
+tensorboard_logs/
+
+Segmentation/Checkpoints Resnet/*
+!Segmentation/Checkpoints Resnet/deeplabv3_epoch_100.pth.tar
+
+Segmentation/Checkpoints Resnet HYPERPARAMETERS/
+Segmentation/tensorboard_logs_resnet/
+Segmentation/tensorboard_logs_resnet_HYPERPARAMETERS/
+
+dataset/
+
+YOLOV7/yolov7/runs/train/yolov7-w6-custom/weights/*
+!YOLOV7/yolov7/runs/train/yolov7-w6-custom/weights/best.pt
+
+YOLOV7/yolov7/runs/train/yolov7-w6-custom-HYPERPARAMETERS/
+
+Object Detection/Live_YOLO_Inference.py
